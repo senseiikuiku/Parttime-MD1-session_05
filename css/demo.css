@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 40px auto;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+fieldset {
+    position: relative;
+    background-color: #f0eeee;
+    border: 1px solid #f8f9fa;
+    outline: none;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+
+h3 {
+    margin: 50px 0 20px 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.name, .pass {
+  text-align: left;
+}
+
+.group+.group {
+    margin-top: 5px;   
+}
+
+label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #3a3e41;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 8px;
+    width: 176.8px;
+    height: 19.2px;
+    outline: none;
+    padding-left: 3px;
+    box-sizing: border-box;
+    padding-right: 5px;
+}
+
+#tk::placeholder,
+#dn::placeholder {
+    color: #000;
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-size: 9px;
+    text-align: center;
+    line-height: 0.5;
+    padding: 5px;
+    border: 1px solid #0b6ffd;
+    outline: 1px solid #0b6ffd;
+    background-color: #0b6ffd;
+    border-radius: 3px;
+    color: #cfe2ff;
+    margin-top: 10px;
+    width: 176.8px;
+    height: 19.2px;
+    cursor: pointer;
+}
+
+.fin {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fin a {
+    font-size: 8px;
+    color: #000;
+    text-decoration: none;
+}
